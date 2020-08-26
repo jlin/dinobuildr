@@ -11,9 +11,9 @@
 # expected_major - expected major version (13 = High Sierra, etc)
 # expected_minor - expected minor version
 
-expected_os="10"
-expected_major="13"
-expected_minor="3"
+expected_os="11"
+expected_major="0"
+expected_minor="0"
 
 os_version=$(sw_vers -productVersion | awk -F '.' '{print $1}')
 major_version=$(sw_vers -productVersion | awk -F '.' '{print $2}')
