@@ -55,7 +55,7 @@ elif [[ "$os_version" -eq "10" && "$major_version" -eq "14" ]]; then
         /bin/bash -c "$WALLPAPER_SH" -s "/Users/Shared/$WALLPAPER_FILENAME"
     fi
 
-elif [[ "$os_version" -eq "10" && "$major_version" -eq "15" ] or [ "$os_version" -eq "11"]]; then
+elif [[ "$os_version" -eq "10" && "$major_version" -eq "15" ] || [ "$os_version" -eq "11"]]; then
     WALLPAPER_SH=$(curl -fsSL https://raw.githubusercontent.com/mozilla/macos-desktop/810e38873c9c4d63b9d4b35cc81c008c88eac1ca/set-desktop-catalina.sh)
     HASH="a5fd5700616730f3db1af48bf380156a1897197108be359a3c7769b7a359d7c9" # change only after thorough testing
 
