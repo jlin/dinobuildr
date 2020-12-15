@@ -1,0 +1,184 @@
+{
+    "packages": [
+        {
+            "item": "Check macOS Version",
+            "version": "",
+            "url": "resources/macos-versioncheck.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "a1c39834e6fd316898daa4489044db7ccad7371845b93d85a347b9c440058cd0",
+            "type": "shell"
+        },
+        {
+            "item": "Download Wallpaper Image",
+            "version": "",
+            "url": "resources/wallpaper-firefox-file.png",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "8bfcd15ba06b76335e8dd54c547f3778ea064479b34f56f51a40ad75ee5d4f19",
+            "type": "file"
+        },
+        {
+            "item": "Configure Screensaver",
+            "version": "",
+            "url": "resources/screensaver.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "292a2522524b97b8adc8b70b6fea59a737888066c6f1b249b0c9a11c61a23844",
+            "type": "shell"
+        },
+        {
+            "item": "Configure ComputerName",
+            "version": "",
+            "url": "resources/set-computername.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "f933954b5e4e82fa3aed0c7d81d6f5659b49eac1129fe331d09ec7afae0e3ceb",
+            "type": "shell"
+        },
+        {
+            "item": "Download Crashplan deploy.properties",
+            "version": "",
+            "url": "resources/deploy.properties",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "4f674399b3a9d290ce9d050383aca5c57de7c239b19540818559d43a6f4c9f62",
+            "type": "file"
+        },
+        {
+            "item": "Crashplan Preflight",
+            "version": "",
+            "url": "resources/crashplan_preflight.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "aeb26d1ead4245817ad1e7ba29daaf11598bcac2154d9c60c5b1eb24e3ecfb94",
+            "type": "shell"
+        },
+        {
+            "item": "Install Crashplan",
+            "version": "",
+            "url": "https://download.code42.com/installs/agent/cloud/8.2.2/26/install/Code42_8.2.2_1525200006822_26_Mac.dmg",
+            "filename": "",
+            "dmg-installer": "Install Code42 CrashPlan.pkg",
+            "dmg-advanced": "",
+            "hash": "9f10d99a941ff8fec14f01ae9de6c7f0c2fb6ee6994438ada0f79ceae068b9d9",
+            "type": "dmg"
+        },
+        {
+            "item": "Install Firefox",
+            "version": "latest",
+            "url": "https://download.mozilla.org/?product=firefox-${version}-SSL&os=osx&lang=en-US",
+            "filename": "firefox.dmg",
+            "dmg-installer": "Firefox.app",
+            "dmg-advanced": "",
+            "hash": "autohash-firefox",
+            "type": "dmg"
+        },
+        {
+            "item": "Configure Firefox Bookmarks",
+            "version": "",
+            "url": "resources/firefox-bookmarks.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "2347eda6857d94e01b62c5158cf626da038109dce50e5e1268e40c6d3422e5a5",
+            "type": "shell"
+        },
+        {
+            "item": "Install Slack",
+            "version": "4.12.0",
+            "url": "https://downloads.slack-edge.com/releases/macos/4.12.0/prod/x64/Slack-${version}-macOS.dmg",
+            "filename": "slack.dmg",
+            "dmg-installer": "Slack.app",
+            "dmg-advanced": "",
+            "hash": "5990ec9106d0c8fb6eaaf6d845063bb254c9e80401d2aa5aac173988cd2e502f",
+            "type": "dmg"
+        },
+        {
+            "item": "Configure Firewall",
+            "version": "",
+            "url": "resources/firewall.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "a3476f968ac645dffcecc336a0b735a7f508b30f75c9a3222e211100e58d5c0e",
+            "type": "shell"
+        },
+        {
+            "item": "Disable analytics settings",
+            "version": "",
+            "url": "resources/analytics_settings.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "9a88799266ede381335a3ec5c23118aa6404516e6fd3ca805d238dff2eb5eefb",
+            "type": "shell"
+        },
+        {
+            "item": "Enable automatic updates",
+            "version": "",
+            "url": "resources/app-store-updates.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "5de09057abdbc563d0cc4f802ab3138d901dd1ba711f7ddcf6de99299a54affb",
+            "type": "shell"
+        },
+        {
+            "item": "Configure Dock",
+            "version": "",
+            "url": "resources/dock-config.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "05b91cacf016ba6800a5c92a8ea73c3ef2424f6df8b416e2d9dc586d87fbe46b",
+            "type": "shell"
+        },
+        {
+            "item": "Disable Guest Login",
+            "version": "",
+            "url": "resources/disable-guest.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "b4d565ca544ffa7559ccfab4d80467316f9c6531f1f7d0b97cc9010553876216",
+            "type": "shell"
+        },
+        {
+            "item": "Enable Filevault",
+            "version": "",
+            "url": "resources/enable-filevault.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "536ca494b5c1a980cfbc35ea256c8bfc48f4abfa7daa1aed9b9126e4d156980c",
+            "type": "shell"
+        },
+        {
+            "item": "Update macOS",
+            "version": "",
+            "url": "resources/update-macos.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "ce9ab785e5e6818c47c2371385668000c8b267d1bdc31ecbc28bf7f6a01583b9",
+            "type": "shell"
+        },
+        {
+            "item": "Install Zoom",
+            "version": "5.4.59301.1211",
+            "url": "https://zoom.us/client/${version}/Zoom.pkg",
+            "filename": "Zoom.pkg",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "daf7b91ccb150975b3b259e7b41f6e5e5cf9e7190a2009e2c9e3175713c38413",
+            "type": "pkg"
+        }
+    ]
+}
