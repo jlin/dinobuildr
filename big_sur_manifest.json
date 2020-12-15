@@ -63,11 +63,11 @@
         {
             "item": "Install Crashplan",
             "version": "",
-            "url": "https://download.code42.com/installs/agent/cloud/8.2.2/26/install/Code42_8.2.2_1525200006822_26_Mac.dmg",
+            "url": "https://download.code42.com/installs/agent/cloud/8.5.0/446/install/Code42_8.5.0_1525200006850_446_Mac.dmg",
             "filename": "",
             "dmg-installer": "Install Code42.pkg",
             "dmg-advanced": "",
-            "hash": "9f10d99a941ff8fec14f01ae9de6c7f0c2fb6ee6994438ada0f79ceae068b9d9",
+            "hash": "11b6a44687245b6ad44617f182870ca8d1d1091b8e33418c6ec962a8fc530523",
             "type": "dmg"
         },
         {
@@ -131,16 +131,6 @@
             "type": "shell"
         },
         {
-            "item": "Configure Dock",
-            "version": "",
-            "url": "resources/dock-config.sh",
-            "filename": "",
-            "dmg-installer": "",
-            "dmg-advanced": "",
-            "hash": "05b91cacf016ba6800a5c92a8ea73c3ef2424f6df8b416e2d9dc586d87fbe46b",
-            "type": "shell"
-        },
-        {
             "item": "Disable Guest Login",
             "version": "",
             "url": "resources/disable-guest.sh",
@@ -161,16 +151,6 @@
             "type": "shell"
         },
         {
-            "item": "Update macOS",
-            "version": "",
-            "url": "resources/update-macos.sh",
-            "filename": "",
-            "dmg-installer": "",
-            "dmg-advanced": "",
-            "hash": "ce9ab785e5e6818c47c2371385668000c8b267d1bdc31ecbc28bf7f6a01583b9",
-            "type": "shell"
-        },
-        {
             "item": "Install Zoom",
             "version": "5.4.59301.1211",
             "url": "https://zoom.us/client/${version}/Zoom.pkg",
@@ -179,6 +159,26 @@
             "dmg-advanced": "",
             "hash": "daf7b91ccb150975b3b259e7b41f6e5e5cf9e7190a2009e2c9e3175713c38413",
             "type": "pkg"
+        },
+        {
+            "item": "Configure Dock",
+            "version": "",
+            "url": "resources/dock-config.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "05b91cacf016ba6800a5c92a8ea73c3ef2424f6df8b416e2d9dc586d87fbe46b",
+            "type": "shell"
+        },
+        {
+            "item": "Update macOS",
+            "version": "",
+            "url": "resources/update-macos.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "ce9ab785e5e6818c47c2371385668000c8b267d1bdc31ecbc28bf7f6a01583b9",
+            "type": "shell"
         }
     ]
 }
