@@ -65,7 +65,7 @@
             "version": "",
             "url": "https://download.code42.com/installs/agent/cloud/8.2.2/26/install/Code42_8.2.2_1525200006822_26_Mac.dmg",
             "filename": "",
-            "dmg-installer": "Install Code42 CrashPlan.pkg",
+            "dmg-installer": "Install Code42.pkg",
             "dmg-advanced": "",
             "hash": "9f10d99a941ff8fec14f01ae9de6c7f0c2fb6ee6994438ada0f79ceae068b9d9",
             "type": "dmg"
