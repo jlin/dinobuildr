@@ -21,6 +21,16 @@
             "type": "file"
         },
         {
+            "item": "Configure Wallpaper",
+            "version": "",
+            "url": "resources/wallpaper.sh",
+            "filename": "",
+            "dmg-installer": "",
+            "dmg-advanced": "",
+            "hash": "a09f21d0ea868a12a56909b10e3704b8ec184c9a4eeff86502187a69273f48cc",
+            "type": "shell"
+        },
+        {
             "item": "Configure Screensaver",
             "version": "",
             "url": "resources/screensaver.sh",
