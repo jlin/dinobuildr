@@ -65,7 +65,7 @@ elif [[ "$os_version" -eq "10" && "$major_version" -eq "15" ]]; then
     fi
 elif [[ "$os_version" -eq "11" ]]; then
     WALLPAPER_SH=$(curl -fsSL https://raw.githubusercontent.com/jlin/macos-desktop/master/set-desktop.sh)
-    HASH="3f920122dd2ea29802f69d72b6770cb3c5634634cb2fb7d62089d681ef172556" # change only after thorough testing
+    HASH="adf9c6406023735915de76f98f5ddd00772e9fcb132597af563745c5a357d91f" # change only after thorough testing
     echo "we're in the right pathway for OS 11"
     echo "$WALLPAPER_SH" | shasum -a 256 | awk '{print $1}'
     if [ "$(echo "$WALLPAPER_SH" | shasum -a 256 | awk '{print $1}')" == $HASH ]; then #  if the hashes match then proceed
